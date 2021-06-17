@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EndActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tvQuizFinished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lgc_bold"
+        android:text="@string/quizFinishTxt"
+        android:textSize="@dimen/headingTxtSize"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:layout_marginVertical="@dimen/marginOnEndActivity"
+        />
+
+    <TextView
+        android:id="@+id/tvQuizResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lgc"
+        android:textSize="@dimen/textSizeEnd"
+        android:text="@string/endScore"
+        android:textColor="@color/white"
+        android:layout_marginVertical="@dimen/marginOnEndActivity"
+        />
+
+    <Button
+        android:id="@+id/btnExitToMainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_marginLeft="@dimen/buttonMargins"
+        android:layout_marginRight="@dimen/buttonMargins"
+        android:text="@string/btnExitToMainMenu"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnMainTextSize"
+        android:fontFamily="@font/lgc_bold"
+        android:background="@drawable/custombutton"
+        android:layout_marginVertical="@dimen/marginBetweenButtons"
+        />
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_marginLeft="@dimen/buttonMargins"
+        android:layout_marginRight="@dimen/buttonMargins"
+        android:textColor="@color/black"
+        android:text="@string/btnPlayAgain"
+        android:textSize="@dimen/btnMainTextSize"
+        android:fontFamily="@font/lgc_bold"
+        android:background="@drawable/custombutton"
+        android:layout_marginVertical="@dimen/marginBetweenButtons"
+        />
+
+</LinearLayout>

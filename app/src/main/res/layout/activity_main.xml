@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="@dimen/dimenLogo"
+        android:layout_height="@dimen/dimenLogo"
+        android:src="@drawable/logo"
+        android:layout_marginVertical="@dimen/ivLogoMargin"
+        />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_marginLeft="@dimen/buttonMargins"
+        android:layout_marginRight="@dimen/buttonMargins"
+        android:text="@string/btnStartTxt"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnStartTextSize"
+        android:fontFamily="@font/lgc_bold"
+        android:background="@drawable/custombutton"
+        android:layout_marginVertical="@dimen/marginBetweenButtons"
+        />
+
+    <Button
+        android:id="@+id/btnSuggest"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_marginLeft="@dimen/buttonMargins"
+        android:layout_marginRight="@dimen/buttonMargins"
+        android:text="@string/btnSuggestTxt"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnMainTextSize"
+        android:fontFamily="@font/lgc_bold"
+        android:background="@drawable/custombutton"
+        android:layout_marginVertical="@dimen/marginBetweenButtons"
+        />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_marginLeft="@dimen/buttonMargins"
+        android:layout_marginRight="@dimen/buttonMargins"
+        android:text="@string/btnExitTxt"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnMainTextSize"
+        android:fontFamily="@font/lgc_bold"
+        android:background="@drawable/custombutton"
+        android:layout_marginVertical="@dimen/marginBetweenButtons"
+        />
+
+</LinearLayout>

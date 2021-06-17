@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuggestActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tvSuggest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/lgc_bold"
+        android:text="@string/questionSuggest"
+        android:textColor="@color/white"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:textSize="@dimen/headingTxtSize"
+        android:layout_marginLeft="@dimen/buttonMargins"
+        android:layout_marginRight="@dimen/buttonMargins"
+        />
+
+
+
+    <EditText
+        android:id="@+id/etWriteAQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/questionSuggestHint"
+        android:fontFamily="@font/lgc"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:maxLength="200"
+        android:layout_marginRight="@dimen/editTextMargin"
+        android:layout_marginLeft="@dimen/editTextMargin"
+        android:layout_marginTop="@dimen/marginFromTopAndET"
+        android:background="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tvExampleOfQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lgc"
+        android:textColor="@color/white"
+        android:layout_marginRight="@dimen/editTextMargin"
+        android:layout_marginLeft="@dimen/editTextMargin"
+        android:textSize="@dimen/editTextExampleTxtSize"
+        android:text="@string/questionSuggestionExample"
+        android:backgroundTint="@color/btnGradientEnd"
+        />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_marginLeft="@dimen/buttonMargins"
+        android:layout_marginRight="@dimen/buttonMargins"
+        android:text="@string/btnSendTxt"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnMainTextSize"
+        android:fontFamily="@font/lgc_bold"
+        android:background="@drawable/custombutton"
+        android:layout_marginTop="@dimen/marginFromETAndButton"
+        />
+
+</LinearLayout>

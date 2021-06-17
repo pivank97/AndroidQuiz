@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".QuestionsActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/questionTxtSize"
+        android:text="@string/questionExample"
+        android:textColor="@color/white"
+        android:fontFamily="@font/lgc_bold"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:layout_marginVertical="@dimen/marginFromQuestionAndFirstAnswer"
+        android:layout_marginLeft="@dimen/questionMarginsLR"
+        android:layout_marginRight="@dimen/questionMarginsLR"
+        />
+
+    <TextView
+        android:id="@+id/tvQuestionCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lgc"
+        android:textSize="@dimen/btnMainTextSize"
+        android:text="@string/questionCounter"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btnFirstAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/marginBetweenAnswers"
+        android:height="@dimen/answersHeight"
+        android:layout_marginLeft="@dimen/buttonMargins"
+        android:layout_marginRight="@dimen/buttonMargins"
+        android:text="@string/answer1"
+        android:fontFamily="@font/lgc"
+        android:textColor="@color/black"
+        android:background="@drawable/custombutton_answers"
+        />
+
+    <Button
+        android:id="@+id/btnSecondAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="@dimen/answersHeight"
+        android:layout_marginVertical="@dimen/marginBetweenAnswers"
+        android:layout_marginLeft="@dimen/buttonMargins"
+        android:layout_marginRight="@dimen/buttonMargins"
+        android:text="@string/answer2"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lgc"
+        android:background="@drawable/custombutton_answers"
+        />
+    <Button
+
+        android:id="@+id/btnThirdAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="@dimen/answersHeight"
+        android:layout_marginVertical="@dimen/marginBetweenAnswers"
+        android:layout_marginLeft="@dimen/buttonMargins"
+        android:layout_marginRight="@dimen/buttonMargins"
+        android:text="@string/answer3"
+        android:fontFamily="@font/lgc"
+        android:textColor="@color/black"
+        android:background="@drawable/custombutton_answers"
+        />
+    <Button
+
+        android:id="@+id/btnFourthAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="@dimen/answersHeight"
+        android:layout_marginVertical="@dimen/marginBetweenAnswers"
+        android:layout_marginLeft="@dimen/buttonMargins"
+        android:layout_marginRight="@dimen/buttonMargins"
+        android:text="@string/answer4"
+        android:fontFamily="@font/lgc"
+        android:textColor="@color/black"
+        android:background="@drawable/custombutton_answers"
+        />
+
+</LinearLayout>

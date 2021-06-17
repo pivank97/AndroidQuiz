@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimenLogo">175dp</dimen>
+    <dimen name="buttonRadius">35dp</dimen>
+    <dimen name="buttonMargins">50dp</dimen>
+    <dimen name="btnStartTextSize">30dp</dimen>
+    <dimen name="btnMainTextSize">15dp</dimen>
+    <dimen name="btnHeight">70dp</dimen>
+    <dimen name="marginBetweenButtons">20dp</dimen>
+    <dimen name="btnStroke">1dp</dimen>
+    <dimen name="headingTxtSize">38dp</dimen>
+    <dimen name="ivLogoMargin">20dp</dimen>
+    <dimen name="headingMargin">20dp</dimen>
+    <dimen name="chooseTxtSize">20dp</dimen>
+    <dimen name="chooseBtnHeight">100dp</dimen>
+    <dimen name="chooseBtnVertMargin">20dp</dimen>
+    <dimen name="questionTxtSize">28dp</dimen>
+    <dimen name="marginBetweenAnswers">15dp</dimen>
+    <dimen name="answersHeight">75dp</dimen>
+    <dimen name="marginOnEndActivity">25dp</dimen>
+    <dimen name="textSizeEnd">33dp</dimen>
+    <dimen name="marginFromQuestionAndFirstAnswer">30dp</dimen>
+    <dimen name="editTextMargin">20dp</dimen>
+    <dimen name="editTextExampleTxtSize">15dp</dimen>
+    <dimen name="marginFromTopAndET">100dp</dimen>
+    <dimen name="marginFromETAndButton">120dp</dimen>
+    <dimen name="questionMarginsLR">10dp</dimen>
+</resources>
